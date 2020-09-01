@@ -3,12 +3,8 @@
 }
 
 body {
-<<<<<<< HEAD
   background-color: #08AEEA;
-background-image: linear-gradient( 109.5deg,  rgba(76,221,242,1) 11.2%, rgba(92,121,255,1) 91.1% );
-=======
-  background-color: yellow;
->>>>>>> parent of 225ff6e... Update style.css
+  background-image: linear-gradient( 109.5deg,  rgba(76,221,242,1) 11.2%, rgba(92,121,255,1) 91.1% );
 }
 
 .main_header {
@@ -25,10 +21,10 @@ h2 {
 }
 
 .picture_1 {
-  display: block;
+  display: 
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: :fullscreen;
   min-width: 320px;
 }
 
