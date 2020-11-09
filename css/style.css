@@ -16,9 +16,9 @@
 
 .profilbild {
   display: block;
-  margin-left: auto;
+  margin-left: 10em;
   margin-right: auto;
-  width: 180px;
+  width: 120px;
   height: auto;
   border-radius: 50%;
   
@@ -35,7 +35,6 @@
   background-color: yellow;
   color: blue;
   font-size: 18px;
-  z-index: -1;
 }
 
 .topnav a {
