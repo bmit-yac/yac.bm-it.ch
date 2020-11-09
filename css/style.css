@@ -4,6 +4,17 @@
   font-family: 'Segoe UI', Tahoma, Verdana;
 }
 
-.header {
+
+
+header {
   display: grid;
+  grid-template-columns: repeat(2, auto)
+}
+
+* nav {
+  
+} */
+
+.profilbild {
+  width: 120px;
 }
