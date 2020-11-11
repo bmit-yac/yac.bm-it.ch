@@ -8,13 +8,23 @@
 
 header {
   display: grid;
-  grid-template-columns: repeat(2, auto)
+  grid-template-columns: 120px 200px auto;
+  grid-template-areas: 
+    "profilepicture nav name";
 }
 
-* nav {
+nav.ul {
+  flex-direction: row;
   
-} */
+}
 
 .profilbild {
+  grid-area: profilepicture;
   width: 120px;
+  height: auto;
+}
+
+.name {
+  grid-area: name;
+  vertical-align: bottom;
 }
