@@ -4,27 +4,54 @@
   font-family: 'Segoe UI', Tahoma, Verdana;
 }
 
-
+body {
+  margin: 40px;
+}
 
 header {
   display: grid;
-  grid-template-columns: 120px 200px auto;
+  grid-template-columns: 140px auto;
   grid-template-areas: 
-    "profilepicture nav name";
+    "personal nav";
+  column-gap: 10vw;
 }
 
-nav.ul {
-  flex-direction: row;
-  
+/* Profilbild und Name */
+
+.personal {
+
 }
 
 .profilbild {
   grid-area: profilepicture;
-  width: 120px;
+  width: 140px;
   height: auto;
 }
 
 .name {
-  grid-area: name;
-  vertical-align: bottom;
+  text-align: center;
+}
+
+/* Navigationbar */
+
+nav {
+  align-self: end;
+}
+
+ul {
+  background-color:rgb(128, 195, 204);
+  text-align: center;
+  border-radius: 8px;
+  margin: 0;
+  padding: 0;
+}
+
+ul > li {
+  list-style-type:none;
+  padding: 10px;
+}
+
+nav > ul > li > a {
+  text-decoration: none;
+  padding: 10px;
 }
