@@ -1,12 +1,31 @@
 /*This is a comment. Comments are not displayed in the browser*/
 
-* {
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
   font-family: 'Segoe UI', Tahoma, Verdana;
 }
 
-body {
-  margin: 40px;
-  background-image: url("images/unsplash_bg.jpg")
+/* Hintergrund */
+.parallax {
+  background-image: url("../images/unsplash_bg.jpg");
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  height: 1200px;
+}
+
+.container {
+  transform: translateZ()
+  margin: 20px;
 }
 
 header {
@@ -15,25 +34,10 @@ header {
   grid-template-areas: 
     "personal nav";
   column-gap: 10vw;
-}
-
-/* Profilbild und Name */
-
-.personal {
-}
-
-.profilbild {
-  grid-area: profilepicture;
-  width: 140px;
-  height: auto;
-}
-
-.name {
-  text-align: center;
+  margin: 20px 20px 0 20px;
 }
 
 /* Navigationbar */
-
 nav {
   align-self: end;
 }
@@ -55,3 +59,19 @@ nav > ul > li > a {
   text-decoration: none;
   padding: 10px;
 }
+
+/* Profilbild und Name */
+.personal {
+
+}
+
+.profilbild {
+  grid-area: profilepicture;
+  width: 140px;
+  height: auto;
+}
+
+.name {
+  text-align: center;
+}
+
