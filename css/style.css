@@ -7,83 +7,98 @@ body {
   margin: 0;
   padding: 0;
   background-color:#77AAAD;
+  display: grid;
 }
 
-header > .topnav {
+header {
+  margin: 30px 8vw 0 8vw;
+}
+
+main {
+  margin: 4vw 8vw 0 8vw;
+}
+
+header > .header_content {
   display: grid;
   grid-template-columns: 140px auto;
   grid-template-areas: 
     "personal nav";
-  column-gap: 10vw;
-  margin: 30px 4vw 0 10vw;
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
+  column-gap: 8vw;
+  
+  height: 180px;
 }
 
+/* Profilbild und Name */
 .personal {
   display: flex;
   flex-direction: column;
 }
 
-/* Navigationbar */
-nav {
-  align-self: end;
-  border-radius: 4px;
-}
-
-ul {
-  font-weight: 650;
-  display: flex;
-  flex-direction: row;
-  justify-content:space-around;
-  border-radius: 4px;
-  margin: 0;
-  padding: 0;
-}
-
-ul > li {
-  /* Löscht die Listenpunkte & Aufzählungen */
-  list-style-type: none;
-  padding: 10px 10px 0 10px;
-}
-
-nav > ul > li > a {
-  text-decoration: none;
-  padding: 10px 10px 0 10px;
-  color: #353848;
-}
-
-/* Profilbild und Name */
 .profilbild {
-  grid-area: profilepicture;
   width: 140px;
   height: auto;
 }
 
 .name {
   text-align: center;
-  margin-top: 10px;
+  margin: 10px 0 6px 0;
   font-weight: 600;
   color:#ffc952;
   font-size: 18px;
 }
 
+/* Navigationbar */
+nav.navbar {
+  display: grid;
+  /* align-self: end; */
+  background-color: #e4b654;
+  border-radius: 4px;
+  height: 30px;
+  align-items: center;
+  align-self: end;
+  margin-bottom: 3px;;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+ul > li {
+  /* Löscht die Listenpunkte & Aufzählungen */
+  list-style-type: none;
+
+}
+
+nav.navbar > ul > li > a {
+  text-decoration: none;
+  padding: 0;
+  color: #222222;
+  display: flex;
+  flex-direction: row;
+  /* padding: 8px 10px; */
+}
+
 main > .content_container {
-  padding: 24px;
-  position: absolute;
+  padding: 50px;
   color: rgb(250, 250, 250);
   text-align: center;
-  padding: 50px;
   background:rgba(212, 212, 212, 0.7);
-  top: 320px;
-  right: 0;
-  left: 0;
-  margin: 0 10vw 0 10vw;
+  /* top: 320px; */
+  /* right: 0;
+  left: 0; */
   border-radius: 4px;
 }
 
 /* p {
   margin: 0;
+} */
+
+/* @media only screen and (max-width: 612px) {
+
+
+
+
 } */
