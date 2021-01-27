@@ -6,9 +6,9 @@
 }
 
 body {
-  size: 100%;
   background-image: url(../images/imghd.png);
   background-attachment: fixed;
+  background-size: 100vw;
   margin: 0;
   padding: 0;
   display: grid;
@@ -107,7 +107,6 @@ nav.navbar > ul > li > a {
   display: flex;
   flex-direction: row;
   cursor: pointer;
-  /* padding: 8px 10px; */
   transition: all 0.3s ease 0s;
 }
 
