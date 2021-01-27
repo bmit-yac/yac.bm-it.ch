@@ -6,7 +6,7 @@
 }
 
 body {
-  size: 100vw;
+  size: 100%;
   background-image: url(../images/imghd.png);
   background-attachment: fixed;
   margin: 0;
@@ -28,7 +28,6 @@ header > .header_content {
   grid-template-areas: 
     "personal nav";
   column-gap: 8vw;
-  
   height: 180px;
 }
 
