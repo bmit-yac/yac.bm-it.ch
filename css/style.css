@@ -11,7 +11,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   margin: 0;
-  padding: 0;
+  padding: 0;§
   display: grid;
 }
 
@@ -115,16 +115,6 @@ nav.navbar > ul > li > a {
 
 nav.navbar > ul > li > a:hover {
   color: crimson;
-  animation: pulse2 2s infinite;
-}
-
-@keyframes pulse2 {
-  0% {
-  box-shadow: 0 0 0 0 rgba(255, 32, 4, 0.5);
-  }
-  100% {
-    box-shadow: 0 0 0 10px rgba(255, 32, 4, 0.5);
-    }
 }
 
 main > .content_container {
