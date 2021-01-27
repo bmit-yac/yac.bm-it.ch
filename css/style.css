@@ -6,12 +6,11 @@
 }
 
 body {
-  size: 100vh;
+  size: 100vw;
   background-image: url(../images/imghd.png);
-  background-repeat: no-repeat;
   background-attachment: fixed;
   margin: 0;
-  padding: 0;§
+  padding: 0;
   display: grid;
 }
 
