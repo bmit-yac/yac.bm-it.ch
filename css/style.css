@@ -6,7 +6,7 @@
 }
 
 body {
-  size: 100%;
+  size: 100vh;
   background-image: url(../images/imghd.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
