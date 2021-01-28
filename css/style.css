@@ -8,7 +8,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: rgb(212, 118, 118);
+  background-color: rgb(102, 102, 102);
 }
 
 header {
@@ -92,7 +92,11 @@ ul {
 ul > li {
   /* Löscht die Listenpunkte & Aufzählungen */
   list-style-type: none;
+}
 
+ul > li:hover {
+  border: solid;
+  overflow: hidden;
 }
 
 nav.navbar > ul > li > a {
