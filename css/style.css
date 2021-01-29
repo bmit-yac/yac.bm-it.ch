@@ -25,7 +25,7 @@ header > .header_content {
   grid-template-areas: 
     "personal nav";
   column-gap: 8vw;
-  height: 180px;
+  height: auto;
 }
 
 /* Profilbild und Name */
