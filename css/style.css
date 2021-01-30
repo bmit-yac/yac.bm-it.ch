@@ -1,6 +1,6 @@
 /*This is a comment. Comments are not displayed in the browser*/
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Hanalei&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap');
 
 * {
   font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
@@ -20,15 +20,15 @@ header {
 }
 
 main {
-  margin: 4vw 8vw 0 8vw;
+  margin: 8vw 8vw 0 8vw;
 }
 
 header > .header_content {
   display: grid;
-  grid-template-columns: 194px auto;
+  grid-template-columns: 120px auto;
   grid-template-areas: 
-    "personal nav";
-  column-gap: 8vw;
+    "personal top_navbar";
+  column-gap: 12vw;
   height: auto;
 }
 
@@ -69,22 +69,20 @@ header > .header_content {
 } */
 
 .name {
-  font-family: 'Hanalei', cursive;
-  text-align: center;
+  font-family: 'Caveat', cursive;
   padding: 0;
   font-weight: 600;
   color: #e2e2e2;
-  font-size: 48px;
+  font-size: 40px;
 }
 
-/* Navigationbar */
-nav.navbar {
+/* Top Navigationbar */
+.top_navbar {
   display: grid;
-  /* align-self: end; */
   height: 30px;
   align-items: center;
   align-self: end;
-  margin-bottom: 3px;
+  grid-area: top_navbar;
 }
 
 ul {
@@ -95,12 +93,13 @@ ul {
 }
 
 ul > li {
-  /* Löscht die Listenpunkte & Aufzählungen */
   list-style-type: none;
+  display: inline-block
 }
 
-nav.navbar > ul > li > a {
+.top_navbar > ul > li > .cool-link {
   font-family: 'PT Sans', sans-serif;
+  display: inline-block;
   font-size: 18px;
   text-decoration: none;
   padding: 0;
@@ -111,7 +110,17 @@ nav.navbar > ul > li > a {
   transition: all 0.3s ease 0s;
 }
 
-nav.navbar > ul > li > a:hover {
+.top_navbar > ul > li > a.cool-link:hover {
+  color: crimson;
+}
+
+.top_navbar > ul > li > a.cool-link::after {
+  content: '';
+  transition: width 0.3s ;
+}
+
+.top_navbar > ul > li > a.cool-link:hover::after {
+  transition: width 0.3s;
   color: crimson;
 }
 
