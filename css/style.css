@@ -6,8 +6,12 @@
   font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
 }
 
+body, html {
+  height: 100%;
+}
+
 html {
-  background-color: rgb(52, 104, 110);
+  background-color: rgba(240, 240, 240,1)
 }
 
 body {
@@ -16,22 +20,43 @@ body {
 }
 
 header {
-  margin: 30px 8vw 0 8vw;
+  /* margin: 20px 4vw 0 4vw; */
+  display: grid;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/imghd.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 40vh;
+  /* left: 0;
+  top: 0; */
+  /* z-index: -1; */
+  border-radius: 4px;
 }
 
 main {
   margin: 8vw 8vw 0 8vw;
 }
 
-header > .header_content {
+/* @media screen and (max-width: 1024px){
+  header > .header_content {
+    display: grid;
+    grid-template-columns: 120px auto;
+    column-gap: 10vw;
+    height: auto;
+  }
+} */
+
+ header > .header_content {
   display: grid;
   grid-template-columns: 120px auto;
-  column-gap: 12vw;
+  column-gap: 16vw;
   height: auto;
+  padding: 2vh 4vw;
 }
 
-/* Profilbild und Name */
 
+/* Profilbild und Name */
 .profilbild {
   width: 140px;
   height: auto;
@@ -66,7 +91,7 @@ header > .header_content {
   padding: 0;
   font-weight: 600;
   color: #e2e2e2;
-  font-size: 40px;
+  font-size: 48px;
 }
 
 /* Top Navigationbar */
@@ -94,6 +119,7 @@ header > .header_content {
   font-family: 'PT Sans', sans-serif;
   font-size: 18px;
   text-decoration: none;
+  display: inline-block;
   padding: 0;
   color: #e2e2e2;
   display: flex;
