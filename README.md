@@ -4,6 +4,8 @@ Kurze Projektbeschreibung
 
 ## Teammitglieder
 *YAC*
+*yo*
+*ASDSA*
 
 ## Ressourcen
 Die OneNote Seite zum Projekt befindet sich unter
