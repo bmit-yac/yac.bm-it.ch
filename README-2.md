@@ -1,5 +1,3 @@
-# yac.bm-it.ch
-
 # Name des Repository
 
 Kurze Projektbeschreibung
