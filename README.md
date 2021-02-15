@@ -20,10 +20,10 @@ Beschreibung vom Worflow und commit, push, pull Rhytmus.
 
 ## Namenskonvention
 Die Namenskonvention für die Branches ist wie folgt:
-Feature branches: feature/
-Release branches: release/
-Hotfix branches: hotfix/
-Support branches: support/
+* Feature branches: feature/
+* Release branches: release/
+* Hotfix branches: hotfix/
+* Support branches: support/
 
 **optional
 ![eine Commit-Grafik](https://wac-cdn.atlassian.com/dam/jcr:61ccc620-5249-4338-be66-94d563f2843c/05%20(2).svg?cdnVersion=1342)
