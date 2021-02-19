@@ -34,28 +34,6 @@ header {
   /* z-index: -1; */
 }
 
-main {
-  margin: 8vw 8vw 0 8vw;
-}
-
-/* @media screen and (max-width: 1024px){
-  header > .header_content {
-    display: grid;
-    grid-template-columns: 120px auto;
-    column-gap: 10vw;
-    height: auto;
-  }
-} */
-
- header > .header_content {
-  display: grid;
-  grid-template-columns: 120px auto;
-  column-gap: 16vw;
-  height: auto;
-  padding: 2vh 4vw;
-}
-
-
 /* Profilbild und Name */
 .profilbild {
   width: 140px;
@@ -65,8 +43,8 @@ main {
   cursor: pointer;
 }
 
-
-/* .shadow_box {
+/*
+.shadow_box {
   position: absolute;
   width: 138px;
   height: 138px;
@@ -84,7 +62,8 @@ main {
   100% {
     box-shadow: 0 0 10px 15px rgba(255, 255, 255, 0);
   }
-} */
+}
+*/
 
 .name {
   font-family: 'Caveat', cursive;
@@ -132,7 +111,7 @@ nav.top_navbar > ul > li > .cool_link:hover {
   color: crimson;
 }
 
-/* 
+/*
 nav.top_navbar > ul > li > .cool_link::after {
   content: '';
   height: 10px;
@@ -142,14 +121,42 @@ nav.top_navbar > ul > li > .cool_link::after {
 
   transition: all 300ms linear 0s ;
 
-} */
+}
+*/
 
-/* nav.top_navbar > ul > li > .cool_link:hover::after {
+/*
+nav.top_navbar > ul > li > .cool_link:hover::after {
   height: 2px;
   background-color: white;
   color: crimson;
   transition: all 0.3s linear 0s;
-} */
+}
+*/
+
+
+
+/*
+@media screen and (max-width: 1024px){
+  header > .header_content {
+    display: grid;
+    grid-template-columns: 120px auto;
+    column-gap: 10vw;
+    height: auto;
+  }
+}
+*/
+
+ header > .header_content {
+  display: grid;
+  grid-template-columns: 120px auto;
+  column-gap: 16vw;
+  height: auto;
+  padding: 2vh 4vw;
+}
+
+main {
+  margin: 8vw 8vw 0 8vw;
+}
 
 main > .content_container {
   padding: 50px;
@@ -162,13 +169,14 @@ main > .content_container {
   border-radius: 4px;
 }
 
-/* p {
+/*
+p {
   margin: 0;
-} */
+}
+*/
 
-/* @media only screen and (max-width: 612px) {
+/*
+@media only screen and (max-width: 612px) {
+}
+*/
 
-
-
-
-} */
