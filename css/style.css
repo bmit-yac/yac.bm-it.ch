@@ -22,7 +22,7 @@ body {
 header {
   /* margin: 20px 4vw 0 4vw; */
   display: grid;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/imghd.png);
+  background-image: linear-gradient(rgba(44, 120, 170, 0.5), rgba(153, 130, 97, 1)), url(../images/imghd.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
