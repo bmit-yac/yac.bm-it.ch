@@ -161,6 +161,10 @@ main {
   margin: 6vw 6vw 0 6vw;
 }
 
+main > div {
+  font-size: 14px;
+}
+
 main > .content_container1 {
   padding: 10px 20px;
   color: #222222;
