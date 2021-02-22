@@ -22,8 +22,8 @@ label.logo {
   margin: 0;
   font-weight: 600;
   color: #e2e2e2;
-  letter-spacing: 2px;;
-  font-size: 48px;
+  letter-spacing: 4px;;
+  font-size: 54px;
 }
 
 @media only screen and (min-width: 513px) {
@@ -299,17 +299,26 @@ p {
 
   .burger {
     justify-self: end;
-    width: 44px;
-    height: 36px;
+    width: 42px;
+    height: 34px;
+    cursor: pointer;
   }
 
   .burger > div {
-    width: 32px;
-    height: 4px;
+    width: 42px;
+    height: 6px;
     background-color: #e2e2e2;
-    margin: 6px;
-    border-radius: 2px;
+    border-radius: 4px;
   }
+
+  .burger .line1 {
+    margin-bottom: 8px;
+  }
+
+  .burger .line2 {
+    margin-bottom: 8px;
+  }
+
 
   main {
     margin: 8vw 8vw 0 8vw;
