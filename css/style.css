@@ -20,9 +20,9 @@ label.logo {
   font-family: 'Caveat', cursive;
   padding: 0;
   margin: 0;
-  font-weight: 600;
+  font-weight: 540;
   color: #e2e2e2;
-  font-size: 54px;
+  font-size: 52px;
 }
 
 @media only screen and (min-width: 513px) {
@@ -99,7 +99,7 @@ label.logo {
 
 .top_navbar > ul > li > .cool_link {
   font-family: 'PT Sans', sans-serif;
-  font-size: 18px;
+  font-size: 20px;
   text-decoration: none;
   display: inline-block;
   padding: 0;
@@ -297,25 +297,25 @@ p {
   */
 
   .burger {
-    justify-self: end;
-    width: 42px;
-    height: 34px;
+    justify-self: center;
+    width: 40px;
+    height: 29px;
     cursor: pointer;
   }
 
   .burger > div {
-    width: 42px;
-    height: 6px;
+    width: 40px;
+    height: 5px;
     background-color: #e2e2e2;
     border-radius: 4px;
   }
 
   .burger .line1 {
-    margin-bottom: 8px;
+    margin-bottom: 7px;
   }
 
   .burger .line2 {
-    margin-bottom: 8px;
+    margin-bottom: 7px;
   }
 
 
