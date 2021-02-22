@@ -7,7 +7,7 @@ body, html {
 }
 
 html {
-  background-color: rgba(153, 130, 97, 1)
+  background-color: rgba(48, 48, 48, 1)
 }
 
 body {
@@ -25,20 +25,22 @@ label.logo {
   font-size: 52px;
 }
 
-@media only screen and (min-width: 513px) {
-
-/* Header */
 header {
   margin: 0;
   padding: 0;;
   display: grid;
-  background-image: linear-gradient(rgba(44, 120, 170, 0.5), rgba(153, 130, 97, 1)), url(../images/imghd.png);
+  background-image: linear-gradient(rgba(44, 120, 170, 0.5), rgba(48, 48, 48, 1)), url(../images/imghd.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
   height: 40vh;
 }
+
+@media only screen and (min-width: 513px) {
+
+/* Header */
+
 
 header > .header_content {
   display: grid;
@@ -156,18 +158,31 @@ nav.top_navbar > ul > li > .cool_link:hover::after {
  
 
 main {
-  margin: 4vw 4vw 0 4vw;
+  margin: 8vw 8vw 0 8vw;
 }
 
-main > .content_container {
-  padding: 50px;
+main > .content_container1 {
+  padding: 10px 20px;
   color: #222222;
   text-align: center;
-  background:rgba(206, 166, 120, 0.7);
+  background:rgb(92, 192, 162);
+  box-shadow: -6px 6px 10px 6px rgba(0, 0, 0, 0.2);
   /* top: 320px; */
   /* right: 0;
   left: 0; */
-  border-radius: 4px;
+  border-radius: 6px;
+}
+
+main > .content_container2 {
+  padding: 10px 20px;
+  color: #222222;
+  text-align: center;
+  background:rgb(184, 144, 34);
+  box-shadow: 6px 6px 10px 6px rgba(0, 0, 0, 0.2);
+  /* top: 320px; */
+  /* right: 0;
+  left: 0; */
+  border-radius: 6px;
 }
 
 /*
@@ -189,22 +204,6 @@ p {
   }
 
   /* Header */
-  header {
-    margin: 0;
-    padding: 0;;
-    display: grid;
-    background-image: linear-gradient(rgba(44, 120, 170, 0.5), rgba(153, 130, 97, 1)), url(../images/imghd.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    height: 40vh;
-    /* left: 0;
-    top: 0;
-    /* z-index: -1; */
-  }
-
-
   header > .header_content {
     display: grid;
     grid-template-rows: auto 36px;
@@ -320,27 +319,27 @@ p {
 
 
   main {
-    margin: 8vw 8vw 0 8vw;
+    margin: 4vw 4vw 0 4vw;
   }
 
   main > .content_container1 {
     padding: 10px 20px;
     color: #222222;
     text-align: center;
-    background:rgba(206, 166, 120, 0.7);
-    box-shadow: -8px 8px 10px 6px rgba(0, 0, 0, 0.2);
+    background:rgb(92, 192, 162);
+    box-shadow: -6px 6px 10px 6px rgba(0, 0, 0, 0.2);
     /* top: 320px; */
     /* right: 0;
     left: 0; */
     border-radius: 6px;
   }
-
+  
   main > .content_container2 {
     padding: 10px 20px;
     color: #222222;
     text-align: center;
-    background:rgba(206, 166, 120, 0.7);
-    box-shadow: 8px 8px 10px 6px rgba(0, 0, 0, 0.2);
+    background:rgb(184, 144, 34);
+    box-shadow: 6px 6px 10px 6px rgba(0, 0, 0, 0.2);
     /* top: 320px; */
     /* right: 0;
     left: 0; */
