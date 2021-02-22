@@ -19,6 +19,7 @@ body {
 label.logo {
   font-family: 'Caveat', cursive;
   padding: 0;
+  margin: 0;
   font-weight: 600;
   color: #e2e2e2;
   letter-spacing: 2px;;
@@ -207,7 +208,7 @@ p {
 
   header > .header_content {
     display: grid;
-    grid-template-rows: auto 35px;
+    grid-template-rows: auto 36px;
     row-gap: 8vh;
     height: 30vh;
     padding: 2vh 4vw;
@@ -236,8 +237,8 @@ p {
   */
 
   label.logo {
-    display: flex;
-    align-self: center;
+    align-self: end;
+    justify-self: center;
   }
 
   .top_navbar > ul > li {
@@ -297,15 +298,17 @@ p {
   */
 
   .burger {
-    width: 35px;
-    height: 29px;
+    justify-self: end;
+    width: 44px;
+    height: 36px;
   }
 
   .burger > div {
-    width: 25px;
-    height: 3px;
+    width: 32px;
+    height: 4px;
     background-color: #e2e2e2;
-    margin: 5px;
+    margin: 6px;
+    border-radius: 2px;
   }
 
   main {
