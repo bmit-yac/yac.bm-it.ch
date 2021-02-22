@@ -7,7 +7,7 @@
 <head>
 
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="js/script.js"></script>
 
@@ -17,29 +17,9 @@
 
 <body>
 
-    <header>
-        <div class="header_content">
-            <label class="logo">cmymkgl</label>
-
-            <nav class="top_navbar">
-                <ul>
-                    <li><a class="cool_link" href="index.html">Home</a></li>
-                    <li><a class="cool_link" href="pages/news.html">News</a></li>
-                    <li><a class="cool_link" href="pages/about.html">About</a></li>
-                    <li><a class="cool_link" href="pages/contact.html">Contact</a></li>
-                </ul>
-            </nav>
-
-            <div class="burger">
-                <div class="line1"></div>
-                <div class="line2"></div>
-                <div class="line3"></div>
-            </div>
-            
-        </div>
-
-    </header>
-
+    <?php 
+        include "../.php/header.php"
+    ?>
 
     <main>
         <div class="content_container1">
