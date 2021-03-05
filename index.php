@@ -18,7 +18,7 @@
 <body>
 
     <?php 
-        include ".php/header_index.php";
+        include ".php/header/header_index.php";
     ?>
 
     <main>
