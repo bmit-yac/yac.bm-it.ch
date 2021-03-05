@@ -2,6 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap');
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body, html {
   height: 100%;
 }
@@ -158,15 +164,19 @@ nav.top_navbar > ul > li > .cool_link:hover::after {
  
 
 main {
-  margin: 6vw 6vw 0 6vw;
+  margin: 6vw 10vw 0 10vw;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  column-gap: 4%;
+  row-gap: 6%;
 }
 
 main > div {
   font-size: 14px;
 }
 
-main > .content_container1 {
-  padding: 10px 20px;
+main > .content_box_1 {
+  padding: 14px 20px;
   color: #222222;
   text-align: center;
   background:rgb(92, 192, 162);
@@ -175,11 +185,13 @@ main > .content_container1 {
   /* right: 0;
   left: 0; */
   border-radius: 6px;
-  margin-bottom: 40px;
+  height: max-content;
+  align-self: center;
+  justify-self: center;
 }
 
-main > .content_container2 {
-  padding: 10px 20px;
+main > .content_box_2 {
+  padding: 14px 20px;
   color: #222222;
   text-align: center;
   background:rgb(184, 144, 34);
@@ -188,10 +200,35 @@ main > .content_container2 {
   /* right: 0;
   left: 0; */
   border-radius: 6px;
+  mask-position: center;
+}
+}
+
+.main_image_container_1 > img {
+  height: auto;
+  width: 26vw;
+  box-shadow: 6px 6px 10px 6px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+.main_image_container_2 > img {
+  margin: 0;
+  padding: 0;
+  height: 480px;
+  width: auto;
+  box-shadow: -6px 6px 10px 6px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+.main_image_container_1 {
+  justify-self: end;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 
 /*
-p {
+p {s
   margin: 0;
 }
 */
@@ -200,7 +237,6 @@ p {
 @media only screen and (max-width: 612px) {
 }
 */
-}
 
 @media only screen and (max-width: 512px) {
   /* Top Navigationbar */
@@ -331,7 +367,7 @@ p {
     font-size: 14px;
   }
 
-  main > .content_container1 {
+  main > .content_box_1 {
     padding: 10px 20px;
     color: #222222;
     text-align: center;
@@ -344,7 +380,7 @@ p {
     margin-bottom: 20px;
   }
   
-  main > .content_container2 {
+  main > .content_box_2 {
     padding: 10px 20px;
     color: #222222;
     text-align: center;
