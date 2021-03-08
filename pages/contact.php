@@ -22,11 +22,11 @@
     ?>
 
     <main>
-        <div class="content_container1">
+        <div class="content_box1">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At provident beatae debitis laudantium earum ad repellat, doloribus quis, magnam exercitationem, odit tempora cupiditate libero voluptas expedita tempore quaerat vitae laborum?</p>
         </div>
 
-        <div class="content_container2">
+        <div class="content_box2">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At provident beatae debitis laudantium earum ad repellat, doloribus quis, magnam exercitationem, odit tempora cupiditate libero voluptas expedita tempore quaerat vitae laborum?</p>
         </div>
 
