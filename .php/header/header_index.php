@@ -14,9 +14,9 @@
         <div class="burger">
             <input type="checkbox" id="hamburger">
             <label for="hamburger" class="hamburger">
-                <span class="line"></span>
-                <span class="line"></span>
-                <span class="line"></span>
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
             </label>
         </div>
     </div>
