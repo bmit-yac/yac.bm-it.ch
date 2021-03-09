@@ -12,9 +12,12 @@
         </nav>
 
         <div class="burger">
-            <div class="line1"></div>
-            <div class="line2"></div>
-            <div class="line3"></div>
+            <input type="checkbox" id="hamburger">
+            <label for="hamburger" class="hamburger">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+            </label>
         </div>
     </div>
 </header>
