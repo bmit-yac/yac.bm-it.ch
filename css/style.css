@@ -8,16 +8,25 @@
   box-sizing: border-box;
 }
 
-html {
-  height: 100%;
-  background-color: rgba(48, 48, 48, 1)
-}
-
 body {
-  height: 100%;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
   padding: 0;
+  background: linear-gradient(-45deg, #afafaf, #336460, #264c5a, #003f30);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 label.logo {
@@ -104,35 +113,33 @@ header {
 
   main {
     display: grid;
-    margin: 6vw 6vw 0 6vw;;
+    margin: 6vw 6vw 6vw 6vw;
     grid-template-columns: 1fr 1fr;
-    column-gap: 6%;
-    row-gap: 10%;
+    column-gap: 6vw;
+    row-gap: 10vh;
   }
 
   main > div {
     font-size: 1em;
   }
 
-  main > .content_box_1 {
+  main > .content {
     padding: 14px 20px;
-    color: #222222;
-    text-align: center;
-    height: min-content;
-    background:rgb(92, 192, 162);
-    box-shadow: -6px 6px 10px 6px rgba(0, 0, 0, 0.2);
     border-radius: 6px;
+    text-align: center;
+    color: #222222;
     align-self: start;
   }
 
-  main > .content_box_2 {
-    padding: 14px 20px;
-    color: #222222;
-    text-align: center;
-    background:rgb(184, 144, 34);
+  .content#box_1 {
+    background-color: rgb(92, 192, 162);
+    box-shadow: -6px 6px 10px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  .content#box_2 {
+    background-color: rgb(75, 185, 212);
+    /* Yellow color --> background:rgb(184, 144, 34); */
     box-shadow: 6px 6px 10px 6px rgba(0, 0, 0, 0.2);
-    border-radius: 6px;
-    align-self: start;
   }
 
   /* .main_image_container_1 {
@@ -289,31 +296,29 @@ header {
 
   main > div {
     font-size: 14px;
-    margin: 4vw 0;
+    margin: 0;
   }
 
   /* Content */
-  main > .content_box_1 {
+  main > .content {
     padding: 10px 20px;
-    color: #222222;
-    text-align: center;
-    background:rgb(92, 192, 162);
-    box-shadow: -6px 6px 10px 6px rgba(0, 0, 0, 0.2);
     border-radius: 6px;
+    margin: 4vw 0 8vw 0;
+    text-align: center;
+    color: #222222;
+  }
+
+  .content#box_1 {
+    background-color: rgb(92, 192, 162);
+    box-shadow: -6px 6px 10px 6px rgba(0, 0, 0, 0.2);
     order: 2;
   }
   
-  main > .content_box_2 {
-    padding: 10px 20px;
-    color: #222222;
-    text-align: center;
+  .content#box_2 {
     background-color: rgb(75, 185, 212);
     /* Yellow color --> background:rgb(184, 144, 34); */
     box-shadow: 6px 6px 10px 6px rgba(0, 0, 0, 0.2);
-    border-radius: 6px;
     order: 4;
-    width: 92vw;
-
   }
 
   /* Images */
