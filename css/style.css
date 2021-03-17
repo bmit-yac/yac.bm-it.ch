@@ -34,7 +34,7 @@ label.logo {
   padding: 0;
   margin: 0;
   font-weight: 540;
-  color: #e2e2e2;
+  color: rgb(226, 226, 226);
   font-size: 52px;
 }
 
@@ -42,7 +42,7 @@ header {
   margin: 0;
   padding: 0;;
   display: grid;
-  background-image: linear-gradient(rgba(44, 120, 170, 0.5), rgba(48, 48, 48, 1)), url(../images/imghd.jpg);
+  background: linear-gradient(rgba(44, 120, 170, 0.5), rgba(48, 48, 48, 1)), url(../images/imghd.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -96,7 +96,7 @@ header {
     text-decoration: none;
     display: inline-block;
     padding: 0;
-    color: #e2e2e2;
+    color: rgb(226, 226, 226);
     display: flex;
     flex-direction: row;
     cursor: pointer;
@@ -138,7 +138,7 @@ header {
   
   .content#box_2 {
     background-color: rgb(75, 185, 212);
-    /* Yellow color --> background:rgb(184, 144, 34); */
+    /* Yellow color --> background-color: rgb(184, 144, 34); */
     box-shadow: 6px 6px 10px 6px rgba(0, 0, 0, 0.2);
   }
 
@@ -239,7 +239,7 @@ header {
   .hamburger > .line {
     position: absolute;
     display: block;
-    background: rgb(184, 144, 34);
+    background-color: rgb(226, 226, 226);
     left: 4px;
     height: 4px;
     width: 42px;
@@ -316,7 +316,7 @@ header {
   
   .content#box_2 {
     background-color: rgb(75, 185, 212);
-    /* Yellow color --> background:rgb(184, 144, 34); */
+    /* Yellow color --> background-color: rgb(184, 144, 34); */
     box-shadow: 6px 6px 10px 6px rgba(0, 0, 0, 0.2);
     order: 4;
   }
