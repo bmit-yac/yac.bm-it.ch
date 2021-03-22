@@ -18,7 +18,7 @@
 <body>
 
     <?php 
-        include "../.php/header/header.php"
+        include_once "../.php/header/header.php"
     ?>
 
     <main>
