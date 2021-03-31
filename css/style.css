@@ -42,7 +42,7 @@ header {
   margin: 0;
   padding: 0;;
   display: grid;
-  background: linear-gradient(rgba(44, 120, 170, 0.5), rgba(48, 48, 48, 1)), url(../images/imghd.jpg);
+  background: linear-gradient(rgba(44, 120, 170, 0.5), rgba(48, 48, 48, 1)), url(../images/cover.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
